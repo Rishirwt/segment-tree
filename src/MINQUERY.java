@@ -23,7 +23,7 @@ public class MINQUERY {
     }
     public static void updaterange(int[] tree,int index,int s,int e,int rs,int re,int inc)
     {
-        //overlap
+        //no overlap
         if(re<s||rs>e)
             return;
         //reached leaf node
